@@ -1,0 +1,41 @@
+.menu > li > a {
+    font-size: 90%;
+    font-weight: bold;
+    
+}
+
+.menu > li{
+    padding-right: 3px;
+}
+
+#estructura {
+    display:grid;
+    grid-template-columns: auto auto;
+}
+
+#columna1 {
+    margin-left: 10%;
+    padding-right: 33%;
+    margin-right: -5%;
+}
+
+.subtitle {
+    color: rgb(151, 144, 144);
+}
+
+.t1 {
+    text-align: left;
+}
+
+#columna2 {
+    margin-top: 110%;
+    margin-left: -150%;
+}
+
+#columna2 > div > ul,li{
+    list-style: none;
+}
+
+#columna2 > div > ul > li > a{
+    text-decoration: none;
+}

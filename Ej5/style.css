@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+body > button {
+    width: 150px;
+    margin-left: 80px;
+}
+
+h1 {
+    margin-top: 10px;
+    margin-left: 175px;
+    color: #1f7aec;
+}
+
+.subtitulo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+    margin-left: 175px;
+    margin-right: 175px;
+    margin-top: 60px;
+}
+
+.subtitulo > div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+table {
+    align-self: center;
+    margin: 20px;
+}
+
+.inf {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 100px;
+    margin-right: 100px;
+}
